@@ -1,7 +1,7 @@
-
-h1, h2, footer {
+body {
 	text-align: center;
 	font-family: 'Roboto', sans-serif; font-weight: 900px;
+	background: linear-gradient(to right, rgb(43, 138, 70), rgb(250, 80, 94));
 }
 
 .robots {
@@ -9,28 +9,8 @@ h1, h2, footer {
 	justify-content: center;
 }
 
-.color:hover {
-	 background-color: #65F065;
-}
-
-.head {
-	 background-color: #FF8376;
-}
-
-.right_leg, .left_leg, .torso {
-	 background-color: #65F065;
-	 
-}
- 
-.left_arm, .right_eye {
-	 background-color: #62D3E3;
-}
-
-.right_arm, .left_eye {
-	 background-color: #FFB125;
-}
-
 .head { 
+	background-color: #FF8376;
 	width: 200px; 
 	margin: 0 auto; 
 	height: 150px; 
@@ -50,7 +30,7 @@ h1, h2, footer {
 }
 
 .eyes:hover {
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 
 .upper_body { 
@@ -142,8 +122,23 @@ h1, h2, footer {
 	left: 120px; 
 }
 
-body {
-	background: linear-gradient(to right, rgb(43, 138, 70), rgb(250, 80, 94));
+/*Changes color for parts of the robot*/
+
+.color:hover {
+	 background-color: #65F065;
+}
+
+.right_leg, .left_leg, .torso {
+	 background-color: #65F065;
+	 
+}
+ 
+.left_arm {
+	 background-color: #62D3E3;
+}
+
+.right_arm {
+	 background-color: #FFB125;
 }
 
 footer {
@@ -151,4 +146,3 @@ footer {
 	justify-content: center;
 	position: absolute; bottom: 0; left: 0; right: 0;
 }
-
